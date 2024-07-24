@@ -57,6 +57,7 @@ struct Array *Union(struct Array *arr1, struct Array *arr2)
             arr4->A[k++] = arr2->A[j++];
         else
         {
+            // both are equal
             arr4->A[k++] = arr1->A[i++];
             j++;
         }
