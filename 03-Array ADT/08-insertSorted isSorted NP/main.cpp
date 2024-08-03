@@ -1,5 +1,8 @@
 #include <iostream>
 
+#define TRUE 1
+#define FALSE 0
+
 struct Array
 {
     int A[20];
@@ -42,8 +45,8 @@ int isSorted(struct Array arr)
     int i;
     for (i = 0; i < arr.length - 1; i++)
         if (arr.A[i] > arr.A[i + 1])
-            return 0;
-    return 1;
+            return FALSE;
+    return TRUE;
 }
 
 void reArrange(struct Array *arr)
