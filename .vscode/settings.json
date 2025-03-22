@@ -1,6 +1,22 @@
 {
     "files.associations": {
         "*.ejs": "html",
-        "stdio.h": "c"
-    }
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "array": "c",
+        "*.tcc": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "memory": "c",
+        "string_view": "c",
+        "istream": "c",
+        "ostream": "c",
+        "streambuf": "c",
+        "functional": "c",
+        "tuple": "c",
+        "random": "c",
+        "limits": "c",
+        "algorithm": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
